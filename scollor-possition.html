@@ -1,0 +1,17 @@
+/*How to detect scroll position of any div using jQuery*/
+var height=jQuery('.chatboxcontent').scrollTop().valueOf();
+console.log(height)
+
+
+
+
+/*below code scollor to buttom, when dev hight is overflow:scrolling*/
+ $(".chatboxcontent").scrollTop($(".chatboxcontent").get(0).scrollHeight);
+ 
+ 
+ 
+ 
+ 
+ 
+/* get height for a div with overflow:auto;*/
+$(".chatboxcontent").get(0).scrollHeight
