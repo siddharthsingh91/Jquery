@@ -1,6 +1,6 @@
 /*How to detect scroll position of any div using jQuery*/
 var height=jQuery('.chatboxcontent').scrollTop().valueOf();
-console.log(height)
+console.log(height);
 
 
 
@@ -15,3 +15,13 @@ console.log(height)
  
 /* get height for a div with overflow:auto;*/
 $(".chatboxcontent").get(0).scrollHeight
+
+
+/*Run Function On Scroll*/
+jQuery(window).scroll(function () {
+alert('no');
+})
+
+
+Get scroll position using jquery
+jQuery(document).scrollTop();
